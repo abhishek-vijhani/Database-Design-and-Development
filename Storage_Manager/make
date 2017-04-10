@@ -1,0 +1,2 @@
+Make: test_customize_assign1.c storage_mgr.c dberror.c
+	gcc -o Make test_customize_assign1.c storage_mgr.c dberror.c -lncurses -I.

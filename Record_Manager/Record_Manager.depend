@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1477629708 source:d:\ado\record_manager\buffer_mgr.c
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	"storage_mgr.h"
+	"buffer_mgr.h"
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+
+1474302019 d:\ado\record_manager\storage_mgr.h
+	"dberror.h"
+
+1477627619 d:\ado\record_manager\dberror.h
+	"stdio.h"
+
+1477629149 d:\ado\record_manager\buffer_mgr.h
+	"dberror.h"
+	"dt.h"
+
+1415727061 d:\ado\record_manager\dt.h
+
+1415727061 source:d:\ado\record_manager\buffer_mgr_stat.c
+	"buffer_mgr_stat.h"
+	"buffer_mgr.h"
+	<stdio.h>
+	<stdlib.h>
+
+1415727061 d:\ado\record_manager\buffer_mgr_stat.h
+	"buffer_mgr.h"
+
+1415727061 source:d:\ado\record_manager\dberror.c
+	"dberror.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1471965366 source:d:\ado\record_manager\expr.c
+	<string.h>
+	<stdlib.h>
+	"dberror.h"
+	"record_mgr.h"
+	"expr.h"
+	"tables.h"
+
+1479414934 d:\ado\record_manager\record_mgr.h
+	"dberror.h"
+	"expr.h"
+	"tables.h"
+
+1415727061 d:\ado\record_manager\expr.h
+	"dberror.h"
+	"tables.h"
+
+1415727061 d:\ado\record_manager\tables.h
+	"dt.h"
+
+1415727061 source:d:\ado\record_manager\rm_serializer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dberror.h"
+	"tables.h"
+	"record_mgr.h"
+
+1477630695 source:d:\ado\record_manager\storage_mgr.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"storage_mgr.h"
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+
+1415727061 source:d:\ado\record_manager\test_assign3_1.c
+	<stdlib.h>
+	"dberror.h"
+	"expr.h"
+	"record_mgr.h"
+	"tables.h"
+	"test_helper.h"
+
+1415727061 d:\ado\record_manager\test_helper.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

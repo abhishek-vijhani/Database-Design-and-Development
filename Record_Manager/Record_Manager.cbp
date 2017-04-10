@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Record_Manager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Record_Manager" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Record_Manager" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Record_Manager.cbp" />
+		<Unit filename="Record_Manager.layout" />
+		<Unit filename="buffer_mgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="buffer_mgr.h" />
+		<Unit filename="buffer_mgr_stat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="buffer_mgr_stat.h" />
+		<Unit filename="dberror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dberror.h" />
+		<Unit filename="dt.h" />
+		<Unit filename="expr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="expr.h" />
+		<Unit filename="makefile" />
+		<Unit filename="record_mgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="record_mgr.h" />
+		<Unit filename="rm_serializer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="storage_mgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="storage_mgr.h" />
+		<Unit filename="tables.h" />
+		<Unit filename="test_assign3_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_helper.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1477633308 source:d:\ado\buffer_manager\buffer_mgr.c
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	"storage_mgr.h"
+	"buffer_mgr.h"
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+
+1474305619 d:\ado\buffer_manager\storage_mgr.h
+	"dberror.h"
+
+1477631219 d:\ado\buffer_manager\dberror.h
+	"stdio.h"
+
+1477632749 d:\ado\buffer_manager\buffer_mgr.h
+	"dberror.h"
+	"dt.h"
+
+1410899052 d:\ado\buffer_manager\dt.h
+
+1477595382 source:d:\ado\buffer_manager\buffer_mgr_stat.c
+	"buffer_mgr_stat.h"
+	"buffer_mgr.h"
+	<stdio.h>
+	<stdlib.h>
+
+1410899048 d:\ado\buffer_manager\buffer_mgr_stat.h
+	"buffer_mgr.h"
+
+1474305619 source:d:\ado\buffer_manager\dberror.c
+	"dberror.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1477631228 source:d:\ado\buffer_manager\storage_mgr.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"storage_mgr.h"
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+
+1477597326 source:d:\ado\buffer_manager\test_assign2_1.c
+	"storage_mgr.h"
+	"buffer_mgr_stat.h"
+	"buffer_mgr.h"
+	"dberror.h"
+	"test_helper.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1474305619 d:\ado\buffer_manager\test_helper.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
